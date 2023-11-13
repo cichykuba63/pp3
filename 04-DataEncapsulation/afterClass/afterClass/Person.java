@@ -8,9 +8,13 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-
+    
     public int getAge() {
         return this.age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public boolean isAdult() {
@@ -18,10 +22,6 @@ public class Person {
             return true;
         else
             return false;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     @Override
